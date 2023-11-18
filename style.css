@@ -7,11 +7,16 @@
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
   background-image: url(laptop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+header{
+  position: sticky;
+  top: 0px;
 }
 
 nav{
@@ -91,4 +96,3 @@ nav li:first-child{
   width: 100%;
 }
 }
-
